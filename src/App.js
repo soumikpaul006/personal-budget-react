@@ -13,9 +13,13 @@ import HomePage from './HomePage/HomePage';
 import Footer from './Footer/Footer';
 import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
+import Bchart from './Bchart/Bchart';
+import Dchart from './Dchart/Dchart';
+
 
 
 function App() {
+
   return (
     <Router>
       <Menu/>
@@ -27,6 +31,8 @@ function App() {
           <Route path='/login' element={<LoginPage/>} />
         </Routes>
       </div>
+      <Dchart/>
+      <Bchart/>
       <Footer/>
     </Router>
   );

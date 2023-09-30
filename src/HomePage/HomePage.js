@@ -3,7 +3,6 @@ import React from 'react';
 function HomePage() {
   return (
     <div className="container center">
-
         <div className="page-area">
 
             <div className="text-box">
@@ -54,17 +53,17 @@ function HomePage() {
                 </p>
             </div>
     
-            <div className="text-box">
+            {/* <div className="text-box">
                 <h1>Visualization using D3.js</h1>
                 <div id="pieChartContainer"></div>
-            </div>
+            </div> */}
     
-            <div className="text-box">
+            {/* <div className="text-box">
                 <h1>Visualization using Chart.js</h1>
                 <p>
                     <canvas id="myChart" width="400" height="400"></canvas>
                 </p>
-            </div>
+            </div> */}
 
         </div>
 
